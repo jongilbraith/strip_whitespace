@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Strip and Validate</string>
+	<string>Strip Whitespace</string>
 	<key>ordering</key>
 	<array>
 		<string>74D1EA62-D7F0-4F01-832F-B9FD11757B66</string>

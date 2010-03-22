@@ -29,34 +29,6 @@
 			<key>argument</key>
 			<dict>
 				<key>beforeRunningCommand</key>
-				<string>nop</string>
-				<key>command</key>
-				<string>#!/usr/bin/env ruby
-require ENV['TM_SUPPORT_PATH'] + '/lib/textmate'
-ruby_version = `"${TM_RUBY:=ruby}" -e'puts "Using ruby-" + RUBY_VERSION.to_s'`
-result = `"${TM_RUBY:=ruby}" -wc -W1 2&gt;&amp;1`
-result.gsub!(/Syntax OK/, '')
-puts ruby_version + result if result =~ /-/
-TextMate.go_to :line =&gt; $1 if result =~ /-:(\d+):/
-</string>
-				<key>input</key>
-				<string>document</string>
-				<key>keyEquivalent</key>
-				<string>^V</string>
-				<key>name</key>
-				<string>Validate Syntax</string>
-				<key>output</key>
-				<string>showAsTooltip</string>
-				<key>uuid</key>
-				<string>EE5F19BA-6C02-11D9-92BA-0011242E4184</string>
-			</dict>
-			<key>command</key>
-			<string>executeCommandWithOptions:</string>
-		</dict>
-		<dict>
-			<key>argument</key>
-			<dict>
-				<key>beforeRunningCommand</key>
 				<string>saveActiveFile</string>
 				<key>input</key>
 				<string>none</string>
@@ -76,7 +48,7 @@ TextMate.go_to :line =&gt; $1 if result =~ /-:(\d+):/
         <key>scope</key>
         <string>source.ruby -text.html.ruby</string>
 	<key>name</key>
-	<string>Strip Whitespace and Validate Ruby Syntax</string>
+	<string>Strip Whitespace</string>
 	<key>uuid</key>
 	<string>92C63051-3957-42A7-B741-64F21684DEA0</string>
 </dict>

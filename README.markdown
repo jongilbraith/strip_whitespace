@@ -2,7 +2,7 @@
 
 ## 1. Clone the repo
     
-    git clone git://github.com/cmdrkeene/strip_and_validate.git StripAndValidate.tmbundle
+    git clone git://github.com/cmdrkeene/strip_whitespace.git Strip\ Whitespace.tmbundle
 
 ## 2. Reload bundles
 

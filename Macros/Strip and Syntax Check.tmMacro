@@ -46,7 +46,7 @@
 	<key>keyEquivalent</key>
 	<string>@s</string>
         <key>scope</key>
-        <string>source.ruby -text.html.ruby</string>
+        <string>source.ruby, source.css, source.js, source.sass, text.html, text.haml, text.gherkin</string>
 	<key>name</key>
 	<string>Strip Whitespace</string>
 	<key>uuid</key>

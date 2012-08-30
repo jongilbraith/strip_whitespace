@@ -2,7 +2,7 @@
 
 ## 1. Clone the repo
     
-    git clone git://github.com/professionalnerd/strip_whitespace.git Strip\ Whitespace.tmbundle
+    git clone git://github.com/jongilbraith/strip_whitespace.git Strip\ Whitespace.tmbundle
 
 ## 2. Reload bundles
 
